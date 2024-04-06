@@ -1,0 +1,67 @@
+#Arti {
+    position: relative;
+    margin-top: 0%;
+  }
+
+.Arti-title {
+    margin: 1rem;
+    color: black;
+  }
+
+
+  #about {
+    position: relative;
+  }
+  
+  .about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    /* margin-top: 2rem; */
+  }
+  
+  .about-details-container {
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .about-containers,
+  .about-details-container {
+    display: flex;
+  }
+  
+  .about-pic {
+    border-radius: 2rem;
+  }
+  
+  .arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+  }
+  
+  .details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+  }
+  
+  .section-container {
+    gap: 4rem;
+    height: 80%;
+  }
+
+  .text-container p{
+    color: black;
+    font-size: 25px;
+  }
+  
+  .section__pic-container {
+    height: 500px;
+    width: 500px;
+    margin: auto 0;
+  }
+  

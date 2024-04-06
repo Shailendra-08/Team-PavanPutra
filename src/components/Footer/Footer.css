@@ -1,0 +1,33 @@
+
+footer {
+    height: fit-content;
+    margin: 0;
+    border-radius: 25px 0px 25px 0px;
+    background-color: black;
+  }
+  
+  footer p {
+    text-align: center;
+    color: aliceblue;
+}
+
+footer a{
+    color: aliceblue;
+}
+footer img {
+    /* color: white; */
+    background-color: white;   
+    border-radius: 14px;
+}
+
+footer #socials-container{
+    padding-left: 150px;
+}
+
+@media screen and (max-width: 600px) {
+
+    footer #socials-container{
+        padding-right: 147px;
+    }
+
+}
