@@ -116,6 +116,7 @@ section {
   }
   #hamburger-nav {
     display: flex;
+    /* margin-bottom: 4rem; */
   }
   #experience,
   .experience-details-container {

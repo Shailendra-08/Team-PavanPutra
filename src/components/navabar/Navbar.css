@@ -50,6 +50,7 @@ a:hover {
 .hamburger-menu {
   position: relative;
   display: inline-block;
+  /* margin-bottom: 8rem; */
 }
 
 .hamburger-icon {
@@ -72,11 +73,13 @@ a:hover {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   width: fit-content;
   max-height: 0;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
+  z-index: 10;
+  /* margin-bottom: 6rem; */
 }
 
 .menu-links a {
@@ -91,10 +94,14 @@ a:hover {
 
 .menu-links li {
   list-style: none;
+  /* display: block; */
+  /* margin-bottom: 6rem; */
 }
 
 .menu-links.open {
   max-height: 300px;
+  /* display: block; */
+  /* margin-bottom: 6rem; */
 }
 
 .hamburger-icon.open span:first-child {
@@ -120,4 +127,5 @@ a:hover {
 .hamburger-icon span:first-child {
   transform: none;
 }
+
 
