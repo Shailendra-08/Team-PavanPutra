@@ -3,11 +3,12 @@
     justify-content: center;
     flex-direction: column;
     height: 60vh;
-    margin-top: 4rem;
+    margin-top: 14rem;
     margin-bottom: 6rem;
     
   }
   .title{
+    
     margin-bottom: 2rem;
   }
   
@@ -52,6 +53,7 @@
 form {
     padding: 20px;
     border-radius: 8px;
+    margin-bottom: 8rem;
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
     width: 50%; /* Adjusted width to take up half of the screen */
     text-align: center; /* Center align the content within the form */

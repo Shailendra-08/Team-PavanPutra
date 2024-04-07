@@ -2,7 +2,7 @@
 /* SECTIONS */
 
 section {
-    padding-top: 4vh;
+    padding-top: 2vh;
     height: 96vh;
     margin: 0 10rem;
     box-sizing: border-box;
@@ -18,8 +18,6 @@ section {
 }
   
 
-
-  
 #profile {
     display: flex;
     justify-content: center;
@@ -29,8 +27,15 @@ section {
   
   .section__pic-container {
     display: flex;
+    height: 400px;
+    width: 300px;
+    margin: auto 0;
+  }
+
+  .section__pic-container img {
+    display: flex;
     height: 500px;
-    width: 500px;
+    width: 550px;
     margin: auto 0;
   }
   
@@ -40,7 +45,7 @@ section {
   }
   
   .section__text p {
-    font-weight: 600;
+    font-weight: 500;
   }
   
   .section__text__p1 {
@@ -64,3 +69,34 @@ section {
     gap: 1rem;
   }
   
+
+  
+
+
+
+
+
+  /* chatgpt code  */
+
+  @media only screen and (max-width: 500px) {
+    #profile {
+      height: 63vh;
+      margin-bottom: 0;
+    }
+    section {
+      margin: 0.5rem; /* Adjust margin for smaller screens */
+    }
+    
+    .section__pic-container img {
+      height: auto; /* Ensure image scales properly */
+      width: 90%; /* Occupy 90% of the width */
+    }
+  
+    .title {
+      font-size: 1.5rem; /* Adjust font size */
+    }
+  
+    .section__text__p2 {
+      font-size: 1.25rem; /* Adjust font size */
+    }
+  }

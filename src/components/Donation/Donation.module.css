@@ -2,9 +2,9 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 60vh;
+    height: auto;
     margin-top: 4rem;
-    margin-bottom: 6rem;
+    margin-bottom: 8rem;
     
   }
   .title{
@@ -42,11 +42,22 @@
     height: 2.5rem;
   }
 
+  .upiimg{
+    height: 500px;
+    width: 500px;
+  }
+
+  
+ 
+
   .contactContainer {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* flex-direction: column; */
+    
     height: 100vh;
+    /* margin-bottom: 12rem; */
 }
 
 form {
@@ -75,18 +86,25 @@ textarea {
     
 form {
   width: 80%;
+  
+}
+
+#section{
+  margin-bottom: 56rem;
 }
 
 .contactContainer{
   flex-direction: column;
-  height: 100vh;
+  /* height: 100vh; */
+  /* margin-bottom: 25rem; */
+
 }
 .upiimg{
   width: 250px;
-  margin-top: 235px;
+  margin-top: 200px;
 }
 .shriram{
-  margin-top: 19rem;
+  margin-top: 10rem;
 }
 
 }

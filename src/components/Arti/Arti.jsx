@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../navabar/Navbar'
 import bhagwan from '../../assets/bhagwan.jpg'
 import arrow from '../../assets/arrow.png'
+import Footer from '../Footer/Footer'
 
 
 const Arti = () => {
@@ -83,6 +84,8 @@ const Arti = () => {
         </div>
         <img src={arrow} alt="Arrow icon" className="icon arrow" onclick="location.href='./#experience'" />
       </section>
+      <Footer />
+
     </div>
   )
 }

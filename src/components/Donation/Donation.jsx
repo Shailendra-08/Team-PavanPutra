@@ -3,6 +3,7 @@ import emailjs from '@emailjs/browser';
 import Navbar from '../navabar/Navbar';
 import upi from '../../assets/upii.jpeg';
 import classes from "./Donation.module.css";
+import Footer from '../Footer/Footer'
 const Donation = () => {
   const form = useRef();
   const [formData, setFormData] = useState({
@@ -46,7 +47,6 @@ const Donation = () => {
   return (
     <div>
       <Navbar />
-
 
       <section id="contact">
         <div className={classes.shriram}>
@@ -112,10 +112,16 @@ const Donation = () => {
             <button className="btn btn-color-2" type="submit">
               Send
             </button>
+
           </form>
+  
         </div>
       </section>
+
+     
+
     </div>
+
   );
 };
 
