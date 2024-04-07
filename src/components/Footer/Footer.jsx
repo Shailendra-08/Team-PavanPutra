@@ -13,7 +13,7 @@ const Footer = () => {
                     <div className="nav-links-container">
                         <ul className="nav-links">
                             <li><a href="#about">Mission</a></li>
-                            <li><a href="#experience">Our Work</a></li>
+                            <li><a href="#projects">Our Work</a></li>
                             <NavLink to={"/Arti"}>Arti</NavLink>
 
                             <li><a href="#contact">Contact</a></li>
