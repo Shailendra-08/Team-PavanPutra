@@ -95,7 +95,7 @@ const Donation = () => {
               placeholder="Transaction_id"
               value={formData.Transaction_id}
               onChange={handleChange}
-              pattern="[0-9]{12}"
+              pattern="[0-9]{20}"
               title="Please enter exactly 12 digits"
               required
             />
